@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rildo Júnior</title>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Exo:ital@0;1&family=Sanchez&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="content">
+      <header>
+        <img
+          src="./sources/foto_perfil.png"
+          alt="Minha foto de perfil"
+          class="avatar"
+        />
+
+        <h1>@rildo_junior</h1>
+
+        <div class="languageIcons">
+          <img
+            src="./sources/html.png"
+            alt="icone laranja referenciando a linguagem de programação HTML"
+          />
+          <img
+            src="./sources/css.png"
+            alt="icone azul referenciando a linguagem de programação CSS"
+          />
+          <img
+            src="./sources/css.png"
+            alt="icone amarelo referenciando a linguagem de programação Javascript"
+          />
+        </div>
+
+        <p>
+          📚 Análise e Desenvolvimento de Sistemas - Doctum <br />
+          📍 Mineiro - 30y <br />
+          🎮 Gamer
+        </p>
+      </header>
+
+      <div class="buttons">
+        <div class="dropdown">
+          <button onclick="myFunction()" type="button">
+            <img
+              src="./sources/social.png"
+              alt="imagem de vários icones de redes sociais"
+            />
+            <h2>Redes Sociais</h2>
+            <img src="./sources/list.png" alt="icone de lista" />
+          </button>
+          <div id="dropdown-menu">
+            <a class="dropdown-item" href="#"
+              ><img src="./sources/discord.png" alt="icone discord"
+            /></a>
+            <a class="dropdown-item" href="#"
+              ><img src="./sources/instagram.png" alt="icone instagram"
+            /></a>
+            <a class="dropdown-item" href="#"
+              ><img src="./sources/linkedin.png" alt="icone linkedin"
+            /></a>
+            <a class="dropdown-item" href="#"
+              ><img src="./sources/twitch.png" alt="icone twitch"
+            /></a>
+            <a class="dropdown-item" href="#"
+              ><img src="./sources/twitter.png" alt="icone twitter"
+            /></a>
+            <a class="dropdown-item" href="#"
+              ><img src="./sources/youtube.png" alt="icone youtube"
+            /></a>
+            <a class="dropdown-item" href="#"
+              ><img src="./sources/tiktok.png" alt="icone tiktok"
+            /></a>
+            <a class="dropdown-item" href="#"
+              ><img src="./sources/spotify.png" alt="icone spotify"
+            /></a>
+          </div>
+        </div>
+
+        <a
+          target="_blank"
+          href="https://www.facebook.com/sparkarhub/portfolios/ig/rildo_junior/"
+        >
+          <button>
+            <img
+              src="./sources/shine.png"
+              alt="icone de varias estrelinhas imitando um brilho"
+            />
+            <h2>Filtros Instagram</h2>
+            <img src="" alt="" />
+          </button>
+        </a>
+
+        <a target="_blank" href="mailto:rildojuniorcontato@gmail.com">
+          <button>
+            <img
+              src="./sources/email.png"
+              alt="icone de carta com um papel e um arroba escrito no papel"
+            />
+            <h2>Enviar e-mail</h2>
+            <img src="" alt="" />
+          </button>
+        </a>
+      </div>
+    </div>
+
+    <script>
+      function myFunction() {
+        let x = document.getElementById('dropdown-menu');
+        if (x.style.display === 'none') {
+          x.style.display = 'flex';
+        } else {
+          x.style.display = 'none';
+        }
+      }
+    </script>
+  </body>
+</html>
