@@ -15,7 +15,7 @@
 
 body {
   font-family: var(--text-font);
-  background-image: url("/sources/bg.svg");
+  background-image: url("./sources/bg.svg");
   background-repeat: no-repeat; 
 }
 
